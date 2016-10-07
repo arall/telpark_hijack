@@ -34,4 +34,4 @@ This is an examples of a possible attack flow:
 
 
 ### Proof of concept video
-[![Video](http://i.imgur.com/56EDm3x.png)](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)
+[![Video](http://i.imgur.com/xcm97BR.png)](http://webm.land/media/tmp/b99c7a25-9de3-4bd5-b85f-3e7d36c53309.webm)
