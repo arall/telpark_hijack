@@ -33,4 +33,4 @@ This is one of many examples of exploitability:
 
 
 ### Proof of concept video
-[![Video](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)
+[![Video](http://i.imgur.com/56EDm3x.png)](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)
