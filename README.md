@@ -30,3 +30,7 @@ This is one of many examples of exploitability:
 - The attacker start now the password reset for the victim account using his email.
 - The attacker sets the new password and logs in. The whole account is now on his possession, allowing to use victim's payment methods for parking attacker's cars, seeing sensible information such as license plates, parking history and locations.
 - The victim will not be able to remove the payment method, since the account is no longer under his / her domain.
+
+
+### Proof of concept video
+[![Video](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)](http://webm.land/media/tmp/b569677b-82e0-42fc-a7ca-1d93fb50f6d9.webm)
