@@ -33,4 +33,4 @@ This is an examples of a possible attack flow:
 - The victim will not be able to log in, change nor remove the payment method, since the account is no longer under victim's control.
 
 ### Proof of concept video
-[![Video](http://i.imgur.com/xcm97BR.png)](http://webm.land/media/tmp/b99c7a25-9de3-4bd5-b85f-3e7d36c53309.webm)
+[![Video](http://i.imgur.com/xcm97BR.png)](https://webmshare.com/play/Qx4Dz)
